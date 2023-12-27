@@ -1,0 +1,46 @@
+{
+  "development": {
+    "username": "postgres",
+    "password": "root",
+    "database": "csv_to_db",
+    "host": "127.0.0.1",
+    "pool": {
+      "max": 5,
+      "min": 0,
+      "acquire": 30000,
+      "idle": 10000
+    },
+    "logging": false,
+    "port" : 5431,
+    "dialect": "postgres"
+  },
+  "test": {
+    "username": "postgres",
+    "password": "root",
+    "database": "csv_to_db",
+    "host": "127.0.0.1",
+    "logging": false,
+    "pool": {
+      "max": 5,
+      "min": 0,
+      "acquire": 30000,
+      "idle": 10000
+    },
+    "port" : 5431,
+    "dialect": "postgres"
+  },
+  "production": {
+    "username": "postgres",
+    "password": "root",
+    "database": "csv_to_db",
+    "host": "127.0.0.1",
+    "pool": {
+      "max": 5,
+      "min": 0,
+      "acquire": 30000,
+      "idle": 10000
+    },
+    "logging": false,
+    "dialect": "postgres"
+  }
+}
